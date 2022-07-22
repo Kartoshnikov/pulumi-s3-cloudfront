@@ -1,0 +1,7 @@
+config:
+  aws:profile: test_sandbox
+  aws:region: us-east-2
+  aws:skipCredentialsValidation: true
+  cloudfront-s3:targetDomain: example.com
+  cloudfront-s3:certificateArn: arn:aws:acm:us-east-2:111111111111:certificate/3526ffff-9619-47c4-988c-45bc1234714c
+                                                      
